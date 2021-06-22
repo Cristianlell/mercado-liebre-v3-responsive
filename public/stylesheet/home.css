@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--gris-claro);
+    
+}
+
+/* ===== CABECERA ==== */
+
+header{
+    background-color:var(--amarillo);
+    /* background-color: #; */
+    text-align: center;
+}
+
+ /*== LOGO - BUSCAR ==*/
+
+.logo-buscar{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    width: 150px;
+
+}
+
+.buscar{
+    width: 150px;
+    height: 40px;
+    border: none;
+}
+
+/*== COPY y BURGER ==*/
+
+.copy{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.burger{
+    background: var(--celeste);
+    color: white;
+    font-size: 20px;
+    padding: 8px 17px;
+    margin: 25px 0px 15px 0px;
+    border: 1px solid var(--celeste);
+    border-radius: 5px;
+    text-align: center;
+}
+
+/*=== NAV ===*/
+.nav{
+    display: none;
+
+}
+.nav li{
+    list-style: none;
+}
+.nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* ==== BANNER ==== */
+.banner{
+    width: 100vw;
+}
+
+/* === TITULOS PARRAFOS === */
+
+h3, .precio, span, .descripciones{
+    text-align: center;
+}
+h3{
+    margin: 15px 0;
+    font-size: 24px;
+    color: var(--gris-oscuro);
+}
+
+.precio{
+    font-size: 18px;
+}
+
+span, .descripciones{
+    font-size: 16px;
+    
+}
+main .descripciones{
+    display: none;
+}
+
+
+/* ==== IMG ==== */
+
+main section article img{
+    width: 100%;
+}
+
+
+/* ==== MAIN ==== */
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+main article {
+    margin-bottom: 10px;
+    background: #fff;
+    padding: 15px;
+}
+main article span {
+    color: var(--verde);
+}
+
+main .detalles{
+    border-top: 1px solid var(--gris-claro);
+}
+
+main .descripciones{
+    padding: 15px 0 5px 0;
+    
+}
+
+
+main .envio {
+    width: min-content;
+    padding: 14px;
+    font-size:1rem;
+    color: var(--verde);
+    border: 1px solid var(--verde);
+    border-radius: 100%; 
+    
+    text-align: center;
+}
+
+
+
+/* === FOOTER === */
+
+footer section {
+    text-align: center;
+    margin: 55px;
+}
+
+footer .fas{
+    color: var(--celeste);
+    font-size: 2em;
+    margin-bottom: 10px;
+   
+}
+
+footer section h4{
+    font-size: 18px;
+}
+
+footer section p{
+    font-size: 12px;
+}
+footer .copyright{
+    margin: 10px;
+    text-align: center;
+}
+
+.copyright{
+    text-align: center;
+    padding: 0;
+}
+
+@media (min-width:361px) {
+    /* ==== NAV ==== */
+    .nav{
+       display: inline-block;
+       width: 100%;
+       text-align: left;
+       padding-left:13px ;
+       margin: 10px;
+
+
+    }
+
+    .nav li{
+       text-align: left;
+    }
+
+    .cont-burguer{
+        display: none;
+    }
+
+
+    /* ==== MAIN ==== */
+
+    main section article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    
+}
+
+
+@media (min-width:769px) {
+    
+}
