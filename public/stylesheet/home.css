@@ -141,7 +141,9 @@ main .envio {
 
 
 /* === FOOTER === */
-
+footer{
+    background-color:white;
+}
 footer section {
     text-align: center;
     margin: 55px;
@@ -195,7 +197,9 @@ footer .copyright{
     main section article{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
-    
+    main .descripciones{
+        display: inline-block;
+    }
 }
 
 
